@@ -1,6 +1,7 @@
 {
     "name": "news-deployment-proxy",
     "version": "1.0.0",
+    "main": "my-project-backend/server.js",
     "description": "Proxy to handle deployment for my-project-backend",
     "scripts": {
         "postinstall": "cd my-project-backend && npm install",
