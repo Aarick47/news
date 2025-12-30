@@ -4,6 +4,7 @@
     "description": "Proxy to handle deployment for my-project-backend",
     "scripts": {
         "postinstall": "cd my-project-backend && npm install",
+        "build": "cd my-project-backend && npm install",
         "start": "cd my-project-backend && npm start"
     },
     "engines": {
